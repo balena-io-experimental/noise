@@ -1,8 +1,8 @@
 ---
 dynamic:
-  variables: [ $os, $language ]
-  ref: docs/$os/$language/dynamic
-  $switch_text: Getting Started with $os and $language
+  variables: [ $device ]
+  ref: docs/$device/dynamic
+  $switch_text: Getting Started with $device
 ---
 
 # Dynamic page about {{ $os.name }} & {{ $language.name }}

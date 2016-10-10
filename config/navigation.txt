@@ -1,6 +1,8 @@
+Getting Started
+  Getting Started ~ Getting Started with {{ $device.name }}[/docs/$device/gettingstarted]
 page1[/docs/page1]
   [/docs/page1.1]
 page2[/docs/page2]
   [/docs/page2.1]
 Dynamic page
-  Dynamic page ~ Dynamic page for {{ $os.name }} & {{ $language.name }}[/docs/$os/$language/dynamic]
+  Dynamic page ~ Dynamic page for {{ $os.name }} & {{ $language.name }}[/docs/$device/dynamic]
